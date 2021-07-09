@@ -62,7 +62,6 @@ function generatePassword() {
 function createPassword(passwordLength, optionLowercase, optionUppercase, optionNumeric, optionSpecial) {
   
   var finishedPassword = "";
-
   var optionArray = []
 
   //passwordOptions:
@@ -82,7 +81,7 @@ function createPassword(passwordLength, optionLowercase, optionUppercase, option
   };
 
   if (optionSpecial === true) {
-    var specialSet = ["&","!", "@", "#", "%", "^", "&", "*", "(", ")", "{", "}", "[", "]", "-", "_"];
+    var specialSet = ["&","!", "@", "#", "%", "^", "&", "*", "(", ")", "{", "}", "[", "]", "-", "_", ":", ";", "/", "|", ",", ".", "<", ">", "~", "`", "?"];
     optionArray.push(specialSet);
   };
 
