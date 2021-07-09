@@ -57,7 +57,7 @@ function generatePassword() {
     optionChecklist();
   };
 
-};
+}
 
 function createPassword(passwordLength, optionLowercase, optionUppercase, optionNumeric, optionSpecial) {
   
